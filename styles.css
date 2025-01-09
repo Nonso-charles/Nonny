@@ -221,6 +221,8 @@ body {
 .transaction {
   background: #3468cefa;
   border-radius: 10px;
+  margin: 0 10px;
+  
 }
 
 .transaction-container {
@@ -264,11 +266,15 @@ body {
   background: #fff;
 }
 
+/* History section */
+.history {
+    background: #fff;
+}
+
 .spotify-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 30px;
   background: #daecfffa;
   padding: 10px;
   border-radius: 15px;
@@ -281,7 +287,7 @@ body {
 }
 
 .text {
-  margin-left: -130px;
+  margin-left: -50px;
 }
 
 .lead-text {
@@ -329,8 +335,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
 }
 
 .tamila-text {
   color: blue;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+}
+
+.footer-icons img {
+    width: 25px;
 }
