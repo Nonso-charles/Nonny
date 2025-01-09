@@ -1,93 +1,142 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nonny Wallet</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-</head>
 
 <body>
 
-</body>
-<div class="nav">
-    <div class="nav-img">
-    <img src="nav-img.png" alt="nav image" />
-    </div>
-    <div class="nav-icon">
-        <img src="credit-card.png" alt="icon">
-        <img src="card.png" alt="icon" class="right-icon">
-    </div>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nonny Wallet</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<section class="account-details">
-    <div class="details-header">
-        <div class="header-left">
-            <img src="wallet.png" alt="wallet" class="wallet">
-            <img src="pile-of-coins.png" alt="coins">
-        </div>
-        <div class="header-right">
-        <h3 class="right-content"><img src="united-kingdom.png" alt=""  class="flag">GBP <i class="fas fa-chevron-down"></i>
-        </h3>    
-        </div>
-    </div>
-    <div class="balance">
-        <p class="balance-text">Wallet balance</p>
-        <p class="balance-figure">£0.00</p>
-    </div>
-    <div class="details-icons">
-        <div class="add-container">
-            <i class="fas fa-plus"></i>
-        </div>
-        <div class="transfer-container">
-            <i class="fas fa-right-left"></i>
-        </div>
-        <div class="withdraw-container">
-            <img src="withdraw.png" alt="">
-        </div>
-        <div class="qr-code-container">
-            <img src="qr-code.png" alt="">
-        </div>
-    </div>
-    
-    <div class="details-text">
-        <p class="first-text">Add</p>
-        <p>Transfer</p>
-        <p>Withdraw</p>
-        <p class="last-text">Scan</p>
-    </div>
-</section>
+    <body>
 
-<section class="send-section">
+    </body>
+    <div class="nav">
+        <div class="nav-img">
+            <img src="nav-img.png" alt="nav image" />
+        </div>
+        <div class="nav-icon">
+            <img src="credit-card.png" alt="icon">
+            <img src="card.png" alt="icon" class="right-icon">
+        </div>
+    </div>
+
+    <section class="account-details">
+        <div class="details-header">
+            <div class="header-left">
+                <img src="wallet.png" alt="wallet" class="wallet">
+                <img src="pile-of-coins.png" alt="coins">
+            </div>
+            <div class="header-right">
+                <h3 class="right-content"><img src="united-kingdom.png" alt="" class="flag">GBP <i
+                        class="fas fa-chevron-down"></i>
+                </h3>
+            </div>
+        </div>
+        <div class="balance">
+            <p class="balance-text">Wallet balance</p>
+            <p class="balance-figure">£0.00</p>
+        </div>
+        <div class="details-icons">
+            <div class="add-container">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="transfer-container">
+                <i class="fas fa-right-left"></i>
+            </div>
+            <div class="withdraw-container">
+                <img src="withdraw.png" alt="">
+            </div>
+            <div class="qr-code-container">
+                <img src="qr-code.png" alt="">
+            </div>
+        </div>
+
+        <div class="details-text">
+            <p class="first-text">Add</p>
+            <p>Transfer</p>
+            <p>Withdraw</p>
+            <p class="last-text">Scan</p>
+        </div>
+    </section>
+
+    <section class="send-section">
         <div class="send-money">
-        <div>
-            <img src="paper-plane.png" alt="">
+            <div>
+                <img src="paper-plane.png" alt="">
+            </div>
+            <div class="text-container">
+                <p>International Payments</p>
+                <p class="send-text">Sending Money Abroad Swiftly</p>
+            </div>
+            <div>
+                <i class="fas fa-chevron-right"></i>
+            </div>
         </div>
-        <div class="text-container">
-            <p>International Payments</p>
-            <p class="send-text">Sending Money Abroad Swiftly</p>
-        </div>
-        <div>
-            <i class="fas fa-chevron-right"></i>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section class="transaction">
-    <div class="transaction-container">
-    <div class="transaction-icon">
-        <img src="transaction-history.png" alt="" class="icon">
-    </div>
-    <div class="transaction-text-container">
-        <p>Recent transactions</p>
-    </div>
-    <div class="debit-container">
-      <select name="debit" id="debit">
-          <option value="1">Debit</option>
-      </select>
-    </div>
-    </div>
-</section>
+    <section class="transaction">
+        <div class="transaction-container">
+            <div class="transaction-icon">
+                <img src="transaction-history.png" alt="" class="icon">
+            </div>
+            <div class="transaction-text-container">
+                <p>Recent transactions</p>
+            </div>
+            <div class="debit-container">
+                <select name="debit" id="debit">
+                    <option value="1">Debit</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="spotify-container">
+            <div class="spotify">
+                <img src="spotify.png" alt="">
+            </div>
+            <div class="text">
+                <p class="lead-text">Spotify</p>
+                <p>1 Jan, 19-12</p>
+            </div>
+            <div class="price">
+                <p>$-20</p>
+            </div>
+        </div>
+
+        <div class="macdonalds-container">
+            <div class="macdonalds">
+                <img src="mcdonalds.png" alt="">
+            </div>
+            <div class="text">
+                <p class="lead-text">McDonalds</p>
+                <p>1 Jan, 19-12</p>
+            </div>
+            <div class="price">
+                <p>$-9.32</p>
+            </div>
+        </div>
+
+        <div class="tamila-container">
+            <div class="tamila">
+                <p class="tamila-text">TA</p>
+            </div>
+            <div class="text">
+                <p class="text">
+                <p class="lead-text">Tamila Akan</p>
+                <p>1 Jan, 19-12</p>
+                </p>
+            </div>
+            <div class="price">
+                <p>$-220</p>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
