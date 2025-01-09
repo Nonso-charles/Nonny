@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEF0FF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: #EEF0FF;
+    border-radius: 20px;
+}
+
+.nav-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.nav-icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.right-icon {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+/* Account details section */
+.account-details {
+    background: #fff;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    background: #C4C9FF;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-left img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.wallet {
+    margin: 0 12px;
+}
+
+.header-right {
+    background: #2331C2;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header-right img {
+    width: 20px;
+    height: 20px;
+}
+
+.right-content {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.flag {
+    margin-right: 5px;
+}
+
+.balance {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.balance-text {
+    font-size: 16px;
+}
+
+.balance-figure {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.details-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.details-icons p {
+    display: inline-block;
+}
+
+.withdraw-container{
+    background: #EEC5E8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-container {
+    background: #DAECFFFA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.add-container i {
+    font-size: 30px;
+    color: royalblue;
+}
+
+.transfer-container {
+    background: #9DEAB5FA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer-container i {
+    font-size: 30px;
+    color: green;
+}
+
+.withdraw-container img {
+    width: 40px;
+}
+
+.qr-code-container {
+    background: #575456FC;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.qr-code-container img {
+    width: 30px;
+}
+
+.details-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-text {
+    margin-left: 30px;
+}
+
+.last-text {
+    margin-right: 30px;
+}
+
+/* Send section */
+.send-section {
+    background: #fff;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+.send-money {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.send-money img {
+    width: 60px;
+}
+
+.text-container {
+    margin-left: -20px;
+}
+
+.send-text {
+    font-weight: bolder;
+}
+
+/* Transaction section */
+.transaction {
+    background: #3468CEFA;
+    border-radius: 10px;
+}
+
+.transaction-container {
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.transaction p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.icon {
+    width: 20px;
+}
+
+.transaction-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-text-container p {
+    margin-left: -30px;
+}
+
+.debit-container {
+    margin-left: 
+}
+
+.debit-container select {
+    color: black;
+    background: #fff;
+}
